@@ -1,0 +1,6 @@
+.docusaurus/
+node_modules/
+blog/
+docs/
+.vscode/
+static/

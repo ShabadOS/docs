@@ -1,0 +1,64 @@
+{
+  "name": "@shabados/docs",
+  "version": "1.0.0",
+  "author": "Shabad OS Team <team@shabados.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShabadOS/docs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ShabadOS/docs/issues"
+  },
+  "homepage": "https://docs.shabados.com",
+  "private": true,
+  "scripts": {
+    "docusaurus": "docusaurus",
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "swizzle": "docusaurus swizzle",
+    "serve": "docusaurus serve",
+    "clean": "docusaurus clear",
+    "lint": "eslint . --ext .js,jsx --color",
+    "lint:format": "eslint . --ext .js,jsx --color --fix",
+    "format": "run-s -l prettier:format lint:format",
+    "prettier:format": "prettier . --write",
+    "prettier": "prettier --check \"**/*.{md,mdx,css,json,yml}\"",
+    "check": "run-s -l prettier lint"
+  },
+  "dependencies": {
+    "@docusaurus/core": "2.0.0-alpha.65",
+    "@docusaurus/preset-classic": "2.0.0-alpha.65",
+    "@mdx-js/react": "^1.5.8",
+    "clsx": "^1.1.1",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.11.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^24.0.1",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.21.4",
+    "eslint-plugin-react-hooks": "^4.1.2",
+    "eslint-plugin-simple-import-sort": "^5.0.3",
+    "husky": "^4.3.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.1.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

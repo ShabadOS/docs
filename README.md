@@ -1,10 +1,34 @@
+<center>
 <img src="https://raw.githubusercontent.com/ShabadOS/desktop/dev/resources/icon.png" width="128">
+<h1> Shabad OS Docs</h1>
+</center>
 
-# Shabad OS Docs
+**Table of contents**
+
+- [1. Introduction](#1-introduction)
+- [2. Contributing](#2-contributing)
+- [3. Code of Conduct](#3-code-of-conduct)
+- [4. License](#4-license)
+
+## 1. Introduction
 
 User guides, quick-reference guides, developer/contributor best practices, etc.
 
-## Code of Conduct
+## 2. Contributing
+
+There are many ways in which people can participate in the Shabad OS Docs project. For example:
+
+- [Submit bugs and feature requests](https://github.com/ShabadOS/docs/issues/new). Help us verify whether they are resolved. See our [issue tracker](https://github.com/ShabadOS/docs/issues).
+- Review documentation and make pull requests for anything from typos to new content.
+- Give feedback on the onboarding process to make it easier for others to join the project.
+
+If you are interested in fixing issues and contributing directly to the `docs` repo, please see the document [How to Contribute](CONTRIBUTING.md), which covers the following:
+
+- [How to build and run from source](CONTRIBUTING.md#Getting-Started)
+- [The development workflow](CONTRIBUTING.md#Workflow)
+- [Coding guidelines](CONTRIBUTING.md#Coding-Guidelines)
+
+## 3. Code of Conduct
 
 Please note that this project is released under the Contributor Covenant. By participating in this project you agree to abide by its terms. Our intention is to signal a safe open-source community by welcoming all people to contribute, and pledging in return to value them as whole human beings and to foster an atmosphere of kindness, cooperation, and understanding.
 
@@ -14,7 +38,7 @@ Please note that this project is released under the Contributor Covenant. By par
 
 > [The Contributor Covenant](https://www.contributor-covenant.org/version/2/0/code_of_conduct/)
 
-## License
+## 4. License
 
 The Shabad OS Docs repo is under v3 of the [GPL](LICENSE.md). It is similar to the Golden Rule: do unto others as you would have them do unto you. In exchange for benefitting from the work completed in this repo, others must share their derivative work under v3 of the [GPL](LICENSE.md).
 

@@ -1,0 +1,76 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "plugins": ["react", "simple-import-sort"],
+  "rules": {
+    // Spacing in brackets is consistent and readable
+    "array-bracket-spacing": ["error", "always"],
+    // Spacing in brackets is consistent and readable
+    "computed-property-spacing": ["error", "always"],
+    // Do not require .js/ts extensions, except for .json
+    "import/extensions": [
+      "error",
+      "never",
+      {
+        "json": "always"
+      }
+    ],
+    // No need to have the .jsx file extension
+    "react/jsx-filename-extension": "off",
+    // There's no point disabling prop spreading, it can be useful if not abused
+    "react/jsx-props-no-spreading": "off",
+    // Preferable, but the author should know best for the situation
+    "import/prefer-default-export": 0,
+    // There's no need to have more than 1 empty line, ever
+    "no-multiple-empty-lines": [
+      "error",
+      {
+        "max": 1
+      }
+    ],
+    // Be consistent about where the object braces go
+    "object-curly-newline": [
+      "error",
+      {
+        "consistent": true
+      }
+    ],
+    // Spacing in brackets is consistent and readable
+    "space-in-parens": [
+      "error",
+      "always",
+      {
+        "exceptions": ["empty"]
+      }
+    ],
+    // For the few semi-colons required (e.g. inline array operations), place them at the beginning of the statement
+    "semi": ["error", "never"],
+    "func-names": ["error", "never"],
+    // Prefer passing in ES6 default values to function components (ideal solution resolve https://github.com/ShabadOS/mobile/issues/113)
+    "react/require-default-props": "off",
+    // This plugin sorts alphabetically by default
+    "simple-import-sort/sort": "off",
+    // Add new line between imports
+    "import/order": [
+      "error",
+      {
+        "newlines-between": "always"
+      }
+    ],
+    // No parens needed if only one param
+    "arrow-parens": [
+      "error",
+      "as-needed",
+      {
+        "requireForBlockBody": false
+      }
+    ],
+    // !We should refactor this in future. I wasn't able to figure it out
+    "react/prop-types": "off"
+  }
+}
