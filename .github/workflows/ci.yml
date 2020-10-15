@@ -6,8 +6,11 @@ on:
   pull_request:
     branches:
       - dev
-      - master
+      - main
   push:
+    branches-ignore:
+      # Deploy will kick in
+      - main
 
 jobs:
   lint:

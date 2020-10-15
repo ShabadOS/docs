@@ -1,12 +1,12 @@
 # Build and deploy the site.
-# This assumes that CI was green before `dev` was merged in `master`
+# This assumes that CI was green before `dev` was merged in `main`
 
 name: Continuous Deployment
 
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   lint:
