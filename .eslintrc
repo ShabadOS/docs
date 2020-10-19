@@ -71,6 +71,11 @@
       }
     ],
     // !We should refactor this in future. I wasn't able to figure it out
-    "react/prop-types": "off"
+    "react/prop-types": "off",
+    // Ignore certain webpack alias because it can't be resolved
+    "import/no-unresolved": [
+      "error",
+      { "ignore": ["^@theme", "^@docusaurus", "^@generated"] }
+    ]
   }
 }
