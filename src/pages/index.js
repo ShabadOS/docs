@@ -69,11 +69,8 @@ const Home = () => {
       title="Home"
       description="User guides, quick-reference guides, developer/contributor best practices for ShabadOS"
     >
-
       <header className={clsx( 'hero hero--primary', styles.heroBanner )}>
-
         <div className="container">
-
           <h1 className="hero__title">{siteConfig.title}</h1>
 
           <p className="hero__subtitle">{siteConfig.tagline}</p>
@@ -89,9 +86,7 @@ const Home = () => {
               Get Started
             </Link>
           </div>
-
         </div>
-
       </header>
 
       <main>
@@ -107,7 +102,6 @@ const Home = () => {
           </section>
         )}
       </main>
-
     </Layout>
   )
 }
