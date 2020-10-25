@@ -49,14 +49,8 @@ clean             Clear generated assets, caches, build artifacts
 
 <!-- End Docusaurus CLI commands -->
 
-lint              ESLint and checks code style
-lint:format       Run ESLint to fix code style
-
-prettier          Run Prettier in check mode (only checks non JS files)
-prettier:format   Run Prettier to fix style
-
-check             Lint and check and check code style issues
-format            Run prettier and then eslint to fix code style issues
+lint              ESLint to check code style issues and Prettier in check mode to check non JS/TS files
+lint:format       Run prettier and then eslint to fix code style issues
 ```
 
 ## 2. Workflow
