@@ -16,6 +16,7 @@ module.exports = {
           marginLeft: '1px',
           paddingBottom: '2px',
         },
+        lightIcon: '😎',
         lightIconStyle: {
           marginLeft: '1px',
           paddingBottom: '2px',
