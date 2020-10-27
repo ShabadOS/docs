@@ -8,6 +8,20 @@ module.exports = {
   organizationName: 'shabados',
   projectName: 'docs',
   themeConfig: {
+    colorMode: {
+      respectPrefersColorScheme: true,
+      switchConfig: {
+        darkIcon: '🌙',
+        darkIconStyle: {
+          marginLeft: '1px',
+          paddingBottom: '2px',
+        },
+        lightIconStyle: {
+          marginLeft: '1px',
+          paddingBottom: '2px',
+        },
+      },
+    },
     announcementBar: {
       id: 'supportus',
       content:
