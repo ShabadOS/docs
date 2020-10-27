@@ -19,6 +19,14 @@
   --ifm-navbar-link-color: #ffffff;
 }
 
+[data-theme='light'] {
+  --ifm-footer-background-color: #f6f3ef;
+}
+
+[data-theme='dark'] {
+  --ifm-footer-background-color: #1a191a;
+}
+
 /*-----------------------------------------------------------------------------
   Navbar
 -----------------------------------------------------------------------------*/
