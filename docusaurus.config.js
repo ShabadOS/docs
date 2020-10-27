@@ -33,7 +33,7 @@ module.exports = {
       title: 'Documentation',
       logo: {
         alt: 'ShabadOS Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo.png',
       },
       items: [
         {
