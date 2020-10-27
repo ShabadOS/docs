@@ -80,7 +80,6 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Shabad OS. Built with Docusaurus.`,
     },
   },
   presets: [
