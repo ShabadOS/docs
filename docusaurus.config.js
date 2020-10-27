@@ -51,6 +51,11 @@ module.exports = {
         },
       ],
     },
+    algolia: {
+      // https://v2.docusaurus.io/docs/search/
+      apiKey: 'placeholder',
+      indexName: 'placeholder',
+    },
     prism: {
       theme: require( 'prism-react-renderer/themes/github' ),
       darkTheme: require( 'prism-react-renderer/themes/vsDark' ),
