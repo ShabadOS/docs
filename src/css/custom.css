@@ -86,6 +86,11 @@ html[data-theme='dark'] {
 /*-----------------------------------------------------------------------------
   Navbar
 -----------------------------------------------------------------------------*/
+.navbar {
+  color: var(--ifm-color-white);
+  --ifm-menu-color: var(--ifm-color-white);
+}
+
 .navbar__brand:hover {
   color: var(--ifm-color-primary);
 }
@@ -99,7 +104,7 @@ html[data-theme='dark'] {
 }
 
 .react-toggle-thumb {
-  background-color: #ffffffd1 !importantt;
+  background-color: #ffffffd1 !important;
 }
 
 html[data-theme='light'] .DocSearch {
