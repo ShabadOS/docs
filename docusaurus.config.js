@@ -94,11 +94,11 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve( './sidebars.js' ),
-          editUrl: 'https://github.com/shabados/docs/edit/master/',
+          editUrl: 'https://github.com/shabados/docs/edit/dev/',
         },
         blog: {
           showReadingTime: true,
-          editUrl: 'https://github.com/shabados/docs/edit/master/website/blog/',
+          editUrl: 'https://github.com/shabados/docs/edit/dev/website/blog/',
         },
         theme: {
           customCss: require.resolve( './src/css/custom.css' ),
