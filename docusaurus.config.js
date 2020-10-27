@@ -81,10 +81,6 @@ module.exports = {
               label: 'Twitter',
               href: 'https://twitter.com/shabad_os',
             },
-            {
-              label: 'WhatsApp',
-              href: 'https://wa.me/15166196059',
-            },
           ],
         },
         {
