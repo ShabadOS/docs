@@ -1,3 +1,4 @@
+/* eslint-disable global-require */
 module.exports = {
   title: 'Shabad OS Docs',
   tagline: 'Documentation site for Shabad OS',
