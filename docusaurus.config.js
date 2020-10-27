@@ -70,8 +70,8 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Slack',
-              href: 'https://shabados.slack.com',
+              label: 'Chat',
+              href: 'https://chat.shabados.com',
             },
             {
               label: 'Instagram',
