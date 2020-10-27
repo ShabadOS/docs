@@ -9,6 +9,7 @@ module.exports = {
   projectName: 'docs',
   themeConfig: {
     navbar: {
+      hideOnScroll: true,
       title: 'Documentation',
       logo: {
         alt: 'ShabadOS Logo',
