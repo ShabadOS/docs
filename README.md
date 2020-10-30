@@ -9,14 +9,15 @@ User guides, quick-references, developer best practices, and other Shabad OS rel
 
 **Table of contents**
 
-- [Introduction](#introduction)
-- [Community](#community)
-- [Contributing](#contributing)
-- [People](#people)
-- [Feedback](#feedback)
-- [Related Projects](#related-projects)
-- [Code of Conduct](#code-of-conduct)
-- [License](#license)
+- [Docs](#docs)
+  - [Introduction](#introduction)
+  - [Community](#community)
+  - [Contributing](#contributing)
+  - [People](#people)
+  - [Feedback](#feedback)
+  - [Related Projects](#related-projects)
+  - [Code of Conduct](#code-of-conduct)
+  - [License](#license)
 
 ## Introduction
 
@@ -96,7 +97,7 @@ Docusaurus v2 is under the MIT license. [Learn more about Docusaurus >](https://
 [twitter-url]: https://www.twitter.com/shabad_os/
 [chat-image]: https://img.shields.io/badge/Chat-Public%20Slack%20Channels-1264a3.svg?logo=slack
 [chat-url]: https://chat.shabados.com
-[new-issue-url]: https://github.com/shabados/docs/issues/new
+[new-issue-url]: https://github.com/shabados/docs/issues/new/choose
 [contributor-url]: https://github.com/shabados/docs/graphs/contributors
 [upvote-tracker-url]: https://github.com/shabados/docs/issues?q=is%3Aopen+is%3Aissue+label%3A%22Type%3A+Feature%2FEnhancement%22+sort%3Areactions-%2B1-desc
 [contributor-covenant-url]: https://www.contributor-covenant.org/version/2/0/code_of_conduct/
