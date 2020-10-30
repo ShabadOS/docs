@@ -1,70 +1,100 @@
-# Contributing to Shabad OS Docs
+# Contributing to Docs
+
+Thank you for your interest in participating!
+
+There are many ways to contribute, beyond writing code or programming, by: logging bugs, reporting issues, and creating suggestions. To do so, please [create a ticket](https://github.com/shabados/docs/issues/new) in our issue tracker. See other ways to [Contribute](README.md#Contributing) or give [Feedback](README.md#Feedback).
+
+If you're interested in creating or changing documentation, please see [EDITING.md](EDITING.md).
+
+This document is for developers or programmers contributing to the source code of Docs.
 
 **Table of Contents**
 
-- [Contributing to Shabad OS Docs](#contributing-to-shabad-os-docs)
-  - [1. Getting Started](#1-getting-started)
-    - [1.1. Prerequisites](#11-prerequisites)
-    - [1.2. Build](#12-build)
-    - [1.3. Run](#13-run)
-  - [2. Workflow](#2-workflow)
-  - [3. Coding Guidelines](#3-coding-guidelines)
-  - [4. Thank you!](#4-thank-you)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Build](#build)
+  - [Start](#start)
+  - [Run](#run)
+- [Workflow](#workflow)
+  - [Coding Guidelines](#coding-guidelines)
+  - [Scope](#scope)
+- [Thank you](#thank-you)
 
-## 1. Getting Started
+## Getting Started
 
-If you wish to better understand how Shabad OS works or want to debug an issue: get the source, build it, and run it locally.
+If you wish to better understand how `docs` works or want to debug an issue: get the source, build it, and run it locally.
 
-### 1.1. Prerequisites
+### Prerequisites
 
-In order to download necessary tools, clone the repository, and install dependencies, you’ll need network access.
+In order to download necessary tools, clone the repository, and install dependencies, you'll need network access.
 
 You'll need the following:
 
 - [Git](https://git-scm.com/)
-- [Node.JS](https://nodejs.org/en/), x64, version `>= 12.x`
+- [Node.JS](https://nodejs.org) (If you need to manage multiple Node.JS versions, [use a node version manager](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) to install)
 
-### 1.2. Build
+Get the source code of `docs` repo:
 
-Run `npm install` in the root directory to install all dependencies.
+```shell
+gh repo fork shabados/docs --clone=true
+```
 
-### 1.3. Run
+**PROTIP**: Use the [`gh` cli tool from GitHub](https://cli.github.com/) to fork the repo to your GitHub account (if not already), clone it to your local machine, and set the appropriate remotes for origin and upstream with the above command.
+
+### Build
+
+Run `npm i` in the root directory.
+
+### Start
+
+```shell
+npm start
+```
+
+### Run
 
 Usage:
 
-```console
+```shell
 npm run <command>
 ```
 
 The commands are:
 
-```console
-<!--  Begin Docusaurus CLI commands -->
-
-start             Builds and serves a preview of site locally with Webpack Dev Server
-build             Compiles site for production
-serve             Serve built website locally
-swizzle           Customizing any Docusaurus theme components
-clean             Clear generated assets, caches, build artifacts
-
-<!-- End Docusaurus CLI commands -->
-
-lint              ESLint to check code style issues and Prettier in check mode to check non JS/TS files
-lint:format       Run prettier and then eslint to fix code style issues
+```shell
+start        # Builds and serves a preview of site locally with Webpack Dev Server
+build        # Compiles site for production
+serve        # Serve built website locally
+swizzle      # Customizing any Docusaurus theme components
+clean        # Clear generated assets, caches, build artifacts
+lint         # ESLint to check code style issues and Prettier in check mode to check non JS/TS files
+lint:format  # Run prettier and then eslint to fix code style issues
 ```
 
-## 2. Workflow
+Run `npm run` or open the `package.json` file(s) for a full list of commands.
 
-The general workflow of development is to choose an issue to work on, create a feature branch off `dev` branch, and submit a pull request. This model is shared across all repositories in the Shabad OS organization.
+## Workflow
 
-IMPORTANT: Please see the shared docs for Workflow (Issue Tracking, Branching, and Pull Requests) in the [How To Contribute wiki article](https://github.com/ShabadOS/.github/wiki/How-to-Contribute#workflow).
+The workflow of development (or Git Flow) is to [choose/create an issue](https://github.com/shabados/docs/issues) to work on, [create a feature branch](https://github.com/shabados/.github/wiki/How-to-Contribute#branches), and [submit a pull request](https://github.com/shabados/.github/wiki/How-to-Contribute#pull-requests).
 
-## 3. Coding Guidelines
+**PROTIP**: Read more about our workflow (issue tracking, branching, and pull requests) in the [How To Contribute wiki article](https://github.com/shabados/.github/wiki/How-to-Contribute).
 
-Our coding guidelines are also (mostly) shared across all repos in the Shabad OS organization. Aside from scope definitions (which are repo specific), the rest should be referenced in the wiki article.
+### Coding Guidelines
 
-IMPORTANT: Please see the shared docs for Coding Guidelines (Names, Comments, Style, Linting, and Commit Messages) in the [How to Contribute wiki article](https://github.com/ShabadOS/.github/wiki/How-to-Contribute#coding-guidelines).
+Please see the [wiki](https://github.com/shabados/.github/wiki/How-to-Contribute#coding-guidelines) for Coding Guidelines ([Names](https://github.com/shabados/.github/wiki/How-to-Contribute#41-names), [Comments](https://github.com/shabados/.github/wiki/How-to-Contribute#42-comments), [Style](https://github.com/shabados/.github/wiki/How-to-Contribute#43-style), [Linting](https://github.com/shabados/.github/wiki/How-to-Contribute#44-linting), and [Commit Messages](https://github.com/shabados/.github/wiki/How-to-Contribute#45-commit-messages)).
 
-## 4. Thank you!
+### Scope
+
+To be used in [commit messages](https://github.com/shabados/.github/wiki/How-to-Contribute#45-commit-messages).
+
+Usage:
+
+```shell
+<type>(<scope>): <subject>
+```
+
+Until the project matures further, there will be no scope requirements in commit messages for `docs`.
+
+## Thank you
 
 Your contributions to open source, large or small, make great projects like this possible. Thank you for taking the time to participate in this project.
