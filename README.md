@@ -9,7 +9,6 @@ User guides, quick-references, developer best practices, and other Shabad OS rel
 
 **Table of contents**
 
-- [Docs](#docs)
 - [Introduction](#introduction)
 - [Community](#community)
 - [Contributing](#contributing)
