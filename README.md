@@ -10,14 +10,14 @@ User guides, quick-references, developer best practices, and other Shabad OS rel
 **Table of contents**
 
 - [Docs](#docs)
-  - [Introduction](#introduction)
-  - [Community](#community)
-  - [Contributing](#contributing)
-  - [People](#people)
-  - [Feedback](#feedback)
-  - [Related Projects](#related-projects)
-  - [Code of Conduct](#code-of-conduct)
-  - [License](#license)
+- [Introduction](#introduction)
+- [Community](#community)
+- [Contributing](#contributing)
+- [People](#people)
+- [Feedback](#feedback)
+- [Related Projects](#related-projects)
+- [Code of Conduct](#code-of-conduct)
+- [License](#license)
 
 ## Introduction
 
