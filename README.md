@@ -42,9 +42,7 @@ If you're interested in contributing to the source code of `docs`, then please s
 
 ## People
 
-The original author is Saihaj Singh ([@saihaj](https://github.com/saihaj)).
-
-The current lead maintainer is Harjot Singh ([@harjot1singh](https://github.com/harjot1singh)).
+The original author and current lead maintainer is Saihaj Singh ([@saihaj](https://github.com/saihaj)).
 
 "Thank you!" to [all the volunteers][contributor-url] who've contributed to `docs`.
 
