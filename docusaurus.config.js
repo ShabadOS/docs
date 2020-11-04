@@ -1,6 +1,7 @@
 /* eslint-disable global-require */
 
-const EDIT_URL = 'https://github.com/shabados/docs/edit/dev/'
+const pages = require( './src/pages.config' )
+const { EDIT_URL } = require( './src/consts' )
 
 module.exports = {
   title: 'Shabad OS Docs',
@@ -102,13 +103,14 @@ module.exports = {
       ],
     },
   },
+  plugins: [
+    ...pages,
+  ],
   presets: [
     [
       '@docusaurus/preset-classic',
       {
         docs: {
-          // sidebarPath: require.resolve( './sidebars.js' ),
-          routeBasePath: '/',
           editUrl: EDIT_URL,
         },
         theme: {
