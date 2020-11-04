@@ -1,92 +1,82 @@
 const { EDIT_URL } = require( './consts' )
 
+const sharedValues = {
+  editUrl: EDIT_URL,
+  showLastUpdateAuthor: true,
+  showLastUpdateTime: true,
+}
+
 const pages = [
   [
     '@docusaurus/plugin-content-docs',
     {
+      ...sharedValues,
       id: 'community',
       path: 'content/community',
       routeBasePath: 'community',
-      editUrl: EDIT_URL,
-      showLastUpdateAuthor: true,
-      showLastUpdateTime: true,
     },
   ],
   [
     '@docusaurus/plugin-content-docs',
     {
+      ...sharedValues,
       id: 'database',
       path: 'content/database',
       routeBasePath: 'database',
-      editUrl: EDIT_URL,
-      showLastUpdateAuthor: true,
-      showLastUpdateTime: true,
     },
   ],
   [
     '@docusaurus/plugin-content-docs',
     {
+      ...sharedValues,
       id: 'gurmukhi-utils',
       path: 'content/gurmukhi-utils',
       routeBasePath: 'gurmukhi-utils',
-      editUrl: EDIT_URL,
-      showLastUpdateAuthor: true,
-      showLastUpdateTime: true,
     },
   ],
   [
     '@docusaurus/plugin-content-docs',
     {
+      ...sharedValues,
       id: 'mobile',
       path: 'content/mobile',
       routeBasePath: 'mobile',
-      editUrl: EDIT_URL,
-      showLastUpdateAuthor: true,
-      showLastUpdateTime: true,
     },
   ],
   [
     '@docusaurus/plugin-content-docs',
     {
+      ...sharedValues,
       id: 'presenter',
       path: 'content/presenter',
       routeBasePath: 'presenter',
-      editUrl: EDIT_URL,
-      showLastUpdateAuthor: true,
-      showLastUpdateTime: true,
     },
   ],
   [
     '@docusaurus/plugin-content-docs',
     {
+      ...sharedValues,
       id: 'theme-tool',
       path: 'content/theme-tool',
       routeBasePath: 'theme-tool',
-      editUrl: EDIT_URL,
-      showLastUpdateAuthor: true,
-      showLastUpdateTime: true,
     },
   ],
   [
     '@docusaurus/plugin-content-docs',
     {
+      ...sharedValues,
       id: 'tutorials',
       path: 'content/tutorials',
       routeBasePath: 'tutorials',
-      editUrl: EDIT_URL,
-      showLastUpdateAuthor: true,
-      showLastUpdateTime: true,
     },
   ],
   [
     '@docusaurus/plugin-content-docs',
     {
+      ...sharedValues,
       id: 'viewer',
       path: 'content/viewer',
       routeBasePath: 'viewer',
-      editUrl: EDIT_URL,
-      showLastUpdateAuthor: true,
-      showLastUpdateTime: true,
     },
   ],
 ]
