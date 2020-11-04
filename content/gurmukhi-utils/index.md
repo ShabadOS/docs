@@ -1,7 +1,7 @@
 ---
 id: gurmukhi-utils
-title: Gurmukhi Utils Home
-slug: /gurmukhi-utils
+title: Gurmukhi Utils
+slug: /
 ---
 
 Dummy page for Gurmukhi Utils

@@ -1,7 +1,7 @@
 ---
 id: community
 title: Community
-slug: /community
+slug: /
 ---
 
 Dummy page!

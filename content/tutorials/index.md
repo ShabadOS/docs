@@ -1,7 +1,7 @@
 ---
 id: tutorials
-title: Tutorials Home
-slug: /tutorials
+title: Tutorials
+slug: /
 ---
 
 Dummy page for Tutorials

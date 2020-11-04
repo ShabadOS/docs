@@ -1,7 +1,7 @@
 ---
 id: mobile
-title: Mobile Home
-slug: /mobile
+title: Mobile
+slug: /
 ---
 
 Dummy page for Mobile

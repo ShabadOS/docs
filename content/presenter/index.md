@@ -1,7 +1,7 @@
 ---
 id: presenter
-title: Presenter Home
-slug: /presenter
+title: Presenter
+slug: /
 ---
 
 Dummy page for Presenter

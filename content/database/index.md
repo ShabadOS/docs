@@ -1,7 +1,7 @@
 ---
 id: database
-title: Database Home
-slug: /database
+title: Database
+slug: /
 ---
 
 Dummy page for Database

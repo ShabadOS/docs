@@ -1,7 +1,7 @@
 ---
 id: viewer
-title: Viewer Home
-slug: /viewer
+title: Viewer
+slug: /
 ---
 
 Dummy page for Viewer
