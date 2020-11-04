@@ -42,8 +42,6 @@ module.exports = {
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
-        },
-        { to: 'blog', label: 'Blog', position: 'left' },
         {
           href: 'https://github.com/shabados/docs',
           position: 'right',
@@ -117,10 +115,6 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve( './sidebars.js' ),
           editUrl: 'https://github.com/shabados/docs/edit/dev/',
-        },
-        blog: {
-          showReadingTime: true,
-          editUrl: 'https://github.com/shabados/docs/edit/dev/website/blog/',
         },
         theme: {
           customCss: require.resolve( './src/css/custom.css' ),
