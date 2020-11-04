@@ -5,7 +5,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 
 import styles from './styles.module.css'
 
-const prodcuts = [
+const products = [
   {
     title: 'Database',
     description: 'The main product',
@@ -71,7 +71,7 @@ const Home = () => {
         <section className={styles.features}>
           <div className="container">
             <div className="row">
-              { prodcuts.map( ( { title, description } ) => (
+              { products.map( ( { title, description } ) => (
                 <Product key={title} title={title} description={description} />
               ) )}
             </div>
