@@ -23,6 +23,7 @@ const pages = [
       id: 'database',
       path: 'content/database',
       routeBasePath: 'database',
+      sidebarPath: require.resolve( './sidebars/database' ),
     },
   ],
   [
