@@ -1,5 +1,4 @@
 ---
-id: mobile
 title: Mobile
 slug: /
 ---

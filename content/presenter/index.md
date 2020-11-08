@@ -1,5 +1,4 @@
 ---
-id: presenter
 title: Presenter
 slug: /
 ---

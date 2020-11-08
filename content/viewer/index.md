@@ -1,5 +1,4 @@
 ---
-id: viewer
 title: Viewer
 slug: /
 ---

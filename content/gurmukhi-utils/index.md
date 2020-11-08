@@ -1,5 +1,4 @@
 ---
-id: gurmukhi-utils
 title: Gurmukhi Utils
 slug: /
 ---

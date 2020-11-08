@@ -1,5 +1,4 @@
 ---
-id: theme-tool
 title: Theme Tool
 slug: /
 ---

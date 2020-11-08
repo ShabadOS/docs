@@ -1,5 +1,4 @@
 ---
-id: docs
 title: Docs Site
 slug: /
 ---
