@@ -41,7 +41,8 @@ module.exports = {
         src: 'img/logo.png',
       },
       items: [
-        { to: '/',
+        {
+          to: '/',
           label: 'Products',
           position: 'left',
           items: [
@@ -51,7 +52,8 @@ module.exports = {
             { to: 'mobile/', label: 'Mobile' },
             { to: 'gurmukhi-utils/', label: 'Gurmukhi Utils' },
             { to: 'theme-tool/', label: 'Theme Tool' },
-          ] },
+          ],
+        },
         { to: 'tutorials/', label: 'Tutorials', position: 'left' },
         { to: 'community/', label: 'Community', position: 'left' },
         {
@@ -103,9 +105,7 @@ module.exports = {
       ],
     },
   },
-  plugins: [
-    ...pages,
-  ],
+  plugins: [ ...pages ],
   presets: [
     [
       '@docusaurus/preset-classic',
