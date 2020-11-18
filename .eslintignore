@@ -4,3 +4,4 @@ blog/
 docs/
 .vscode/
 static/
+build/
