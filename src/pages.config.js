@@ -14,6 +14,7 @@ const pages = [
       id: 'community',
       path: 'content/community',
       routeBasePath: 'community',
+      sidebarPath: require.resolve( './sidebars/community' ),
     },
   ],
   [
