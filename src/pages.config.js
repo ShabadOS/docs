@@ -70,6 +70,7 @@ const pages = [
       id: 'tutorials',
       path: 'content/tutorials',
       routeBasePath: 'tutorials',
+      sidebarPath: require.resolve( './sidebars/tutorials' ),
     },
   ],
   [
