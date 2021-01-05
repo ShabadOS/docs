@@ -2,6 +2,10 @@
 title: Chromecast
 ---
 
+import castButtonGoogleChrome from "./images/google-chrome-cast-button.png"
+import resizingChrome from "./images/google-chrome-resizing-info.png"
+import chromeUnlockDevTools from "./images/google-chrome-undock-devtools.png"
+
 This tutorial is for users that would like to cast the Shabad OS display to a chromecast. This tutorial will show how to display Shabad OS on devices (e.g. TVs, projectors, and monitors) with chromecast.
 
 ## Concept
@@ -24,7 +28,7 @@ The ratio and resolution of the Google Chrome tab's window will be used on the C
 Make sure you're casting the Google Chrome tab by clicking the "Sources" button at the bottom of the Cast Tab menu.
 :::
 
-![Cast Button in Google Chrome,500](./images/google-chrome-cast-button.png)
+<img alt="Cast Button in Google Chrome" src={castButtonGoogleChrome} width="500" />
 
 If both the device that is casting and the device that is being casted to share the same resolution or similar ratios, then simply full screen the Google Chrome browser tab by selecting ⋮ (Menu) > ⛶ (Fullscreen) or by hitting F11 on your keyboard.
 
@@ -34,10 +38,10 @@ If the device that is casting is 16:9 (e.g. 1920x1080) but, for example, the pro
 
 To change the size of the tab being casted, simply open developer tools and resize the window. Doing so will show the size of the webpage being casted in the upper right corner.
 
-image::google-chrome-resizing-info.png[Resizing the Google Chrome tab,500]
+<img alt="Resizing the Google Chrome tab" src={resizingChrome} width="500" />
 
 To open developer tools, select ⋮ (Menu) > More tools > Developer tools. By default this opens as a docked window, which may be awkward when resizing the tab. Simply undock it from the developer tool's main menu (⋮) by selecting the first icon in the "Dock side" section. See [Chrome Devtools Docs](https://developers.google.com/web/tools/chrome-devtools/customize/placement) for more info.
 
-![How to undock the devtools into a separate window,500](./images/google-chrome-undock-devtools.png)
+<img alt="How to undock the devtools into a separate window" src={chromeUnlockDevTools} width="500" />
 
 Once undocked, you may minimize the dev tools and simply resize the Google Chrome browser window to affect the size and ratio of the chromecasted Shabad OS tab.

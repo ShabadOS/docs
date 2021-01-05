@@ -3,6 +3,9 @@ title: Get started with Overlays
 sidebar_label: Get started
 ---
 
+import aboutUrl from "../images/shabados-about-url.png"
+import taskManager from "../images/ip-address-windows-task-manager.png"
+
 This tutorial is for users that want to show the currently activated line as livestream captions, video editing slides, and alternate displays (TV, Projector, Chromecast). This tutorial shows how to modify the overlay url in Shabad OS and how to access it through a browser.
 
 ## Concept
@@ -47,13 +50,15 @@ If the same device is running Shabad OS, you may simply use `localhost` or `127.
 
 Otherwise, if you'd like to connect through the same network to Shabad OS being used on a different device, you may find the IP address of that device from _Shabad OS > Settings > About_ or _Shabad OS > Settings > Overlay_.
 
-![Settings About URL,500](../images/shabados-about-url.png)
+<img src={aboutUrl} alt="Settings About URL" width={500} />
+
 Find the IP Address in Shabad OS
 
 :::tip
 Windows 10 users can view the _Task Manager_ (either right click the taskbar or use the hotkey ctrl+shift+esc) to find the IP address. Use the _Performance_ tab and select the Ethernet/Wi-Fi being used to connect to the network in the Task Manager.
 
-![Task Manager,500](./../images/ip-address-windows-task-manager.png)
+<img src={taskManager} alt="Task Manager" width={500} />
+
 Finding the IP Address on Windows 10
 :::
 

@@ -2,6 +2,12 @@
 title: Proofreading
 ---
 
+import differenceBrowser from "../images/proofreading-difference-example-browser.png"
+import differencePdf from "../images/proofreading-difference-example-pdf.png"
+import copySnipAndSketch from "../images/proofreading-example-copy-snip-and-sketch.png"
+import insertCursorGhIssue from "../images/proofreading-example-insert-cursor-gh-issue.png"
+import pasteImageGhIssue from "../images/proofreading-example-paste-image-gh-issue.png"
+
 This tutorial is for users that would like to learn how to improve the digital accuracy of the Shabad OS database. This tutorial will show how to proofread and publicly log differences between different sources and the Shabad OS database.
 
 ## Concept
@@ -71,9 +77,9 @@ It may help to dock both the web browser containing the database viewer and the 
 
 The short version is to document any differences and open an issue on GitHub for reference. Here is an example difference spotted between the database (browser) and the proof (PDF reader).
 
-![Example of line not matching in browser,500](../images/proofreading-difference-example-browser.png)
+<img alt="Example of line not matching in browser" src={differenceBrowser} width="500" />
 
-![Example of line not matching in PDF reader,500](../images/proofreading-difference-example-pdf.png)
+<img alt="Example of line not matching in PDF reader" src={differencePdf} width="500" />
 
 1. Take a screenshot of the PDF reader containing the printed page number and difference.
 
@@ -91,16 +97,16 @@ macOS users can read [this​](https://support.apple.com/en-us/HT201361) article
 
 4. Copy the marked up image.
 
-   ![The copy button in Snip & Sketch for Windows 10,500](../images/proofreading-example-copy-snip-and-sketch.png)
+   <img alt="The copy button in Snip & Sketch for Windows 10" src={copySnipAndSketch} width="200" />
 
 5. In the database viewer (Figure 1), click the highlighted line or hit enter.
 
 6. Click the last empty line in the textbox (after the words ​*Add details & attach image(s) below*), so that the blinking text cursor is at the very end.
 
-   ![,500](./../images/proofreading-example-insert-cursor-gh-issue.png)
+   <img src={insertCursorGhIssue} width={500} />
 
 7. Paste the marked up image.
 
-   ![,500](./../images/proofreading-example-paste-image-gh-issue.png)
+   <img src={pasteImageGhIssue} width={500} />
 
 8. Click the green button "Submit new issue".

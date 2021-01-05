@@ -2,6 +2,9 @@
 title: URL Endpoints
 ---
 
+import aboutUrl from "./images/shabados-about-url.png"
+import taskManager from "./images/ip-address-windows-task-manager.png"
+
 This tutorial is for users wishing to know about Shabad OS being accessed through a web browser. This tutorial will show which pages are available as well as how to find the correct address to use in most modern web browsers.
 
 ## Concept
@@ -18,13 +21,15 @@ If the same device is running Shabad OS, you may simply use `localhost` or `127.
 
 Otherwise, if you'd like to connect through the same network to Shabad OS being used on a different device, you may find the IP address of that device from _Shabad OS > Settings > About_ or _Shabad OS > Settings > Overlay_.
 
-![Settings About URL,500](./images/shabados-about-url.png)
+<img src={aboutUrl} alt="Settings About URL" width={500} />
+
 Find the IP Address in Shabad OS
 
 :::tip
 Windows 10 users can view the _Task Manager_ (either right click the taskbar or use the hotkey ctrl+shift+esc) to find the IP address. Use the _Performance_ tab and select the Ethernet/Wi-Fi being used to connect to the network in the Task Manager.
 
-![Task Manager,500](./images/ip-address-windows-task-manager.png)
+<img src={taskManager} alt="Task Manager" width={500} />
+
 Finding the IP Address on Windows 10
 :::
 
