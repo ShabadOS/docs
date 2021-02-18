@@ -24,6 +24,10 @@ The original author and current lead maintainer of Gurmukhi Utils is Harjot Sing
 - Preetcharan S ([@NerdSingh](https://www.instagram.com/nerdsingh/)) and Basics of Sikhi for english pronunciation guidelines
 - Dr. Gurpreet S Lehal (Punjabi University, Patiala) for his work in Gurmukhi-Hindi (Devanagri) and Gurmukhi-Shahmukhi (Urdu) transliteration
 
+## 3rd Party Ports
+
+- [onkarjit/GurmukhiUtils](https://github.com/onkarjit/GurmukhiUtils) is a rewrite of Shabad OS's gurmukhi-utils to [C#](<https://en.wikipedia.org/wiki/C_Sharp_(programming_language)>) for .NET applications
+
 ## API
 
 ### countSyllables(text) ⇒ <code>number</code>
