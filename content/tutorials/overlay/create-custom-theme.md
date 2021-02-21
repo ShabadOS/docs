@@ -61,7 +61,7 @@ There are tutorials to learn CSS without any prior experience from Mozilla's han
 
 ### Step 3: Inspect the Overlay URL
 
-Open the overlay url in Google Chrome or Mozilla Firefox (see [endpoints](./../url-endpoints.md) for help). Both browsers have an inspect tool that lets you see the html and modify the CSS in a sandbox. If you've found something you like, you can add it to your CSS file for persistence. Otherwise if you've made a mistake and need to start over, simply refresh the page.
+Open the overlay url in Google Chrome or Mozilla Firefox (see [endpoints](../../presenter/reference/url-endpoints) for help). Both browsers have an inspect tool that lets you see the html and modify the CSS in a sandbox. If you've found something you like, you can add it to your CSS file for persistence. Otherwise if you've made a mistake and need to start over, simply refresh the page.
 
 See how to inspect the overlay url in your browser:
 

@@ -53,7 +53,7 @@ const gettingStarted = [
   {
     title: 'Installing the Presenter on Windows / macOS',
     description: 'You can present the Database at gurdwaras, camps/retreats, and virtually through live captions on platforms like YouTube.',
-    link: 'tutorials/install',
+    link: 'presenter/guides/installing-shabad-os-presenter',
   },
 ]
 

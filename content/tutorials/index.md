@@ -8,7 +8,7 @@ hide_title: true
 
 Shabad OS Tutorials is a new platform for discovering practical, step-by-step guides that help users do awesome things with Shabad OS.
 
-The best place to start with Shabad OS is at the beginning: [Installing Shabad OS for Desktop](./install.md)
+The best place to start with Shabad OS is at the beginning: [Installing Shabad OS for Desktop](../../presenter/guides/installing-shabad-os-presenter)
 
 These tutorials are open-source and can be edited with the link in the top right corner -- we welcome contributions from the community.
 
