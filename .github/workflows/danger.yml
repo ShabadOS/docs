@@ -2,12 +2,6 @@ name: Danger Bot
 
 # https://github.com/danger/danger-js/blob/35a98bb3f03d0bc03b1401b561dbb33890faa4e5/source/ci_source/providers/GitHubActions.ts#L152
 on:
-  pull_request:
-    types:
-      - edited
-      - opened
-      - reopened
-      - synchronize
   pull_request_target:
     types:
       - edited
