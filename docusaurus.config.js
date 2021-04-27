@@ -68,7 +68,7 @@ module.exports = {
       defaultLanguage: 'javascript',
     },
     footer: {
-      copyright: `Built with <a href="https://docusaurus.io/" target="_blank">Docusaurus</a>. <br/> <a href="https://vercel.com/?utm_source=ShabadOS&utm_campaign=oss" target="_blank"><img class="vercel" src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg"/></a>`, // You can also put own HTML here.
+      copyright: 'Built with <a href="https://docusaurus.io/" target="_blank">Docusaurus</a>. <br/> <a href="https://vercel.com/?utm_source=ShabadOS&utm_campaign=oss" target="_blank"><img class="vercel" src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg"/></a>', // You can also put own HTML here.
     },
   },
   plugins: [ ...pages ],
