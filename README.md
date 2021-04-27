@@ -1,18 +1,13 @@
-<div align="center">
 <img src="https://raw.githubusercontent.com/shabados/presenter/dev/resources/icon.png" width="128" alt="Shabad OS">
-</div>
-
-<div align="center">
-<a href="https://vercel.com/?utm_source=ShabadOS&utm_campaign=oss">
-<img src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg" width="120" alt="Powered by Vercel"/>
-</a>
-</div>
 
 # Docs
 
 User guides, quick-references, developer best practices, and other Shabad OS related documentation
 
 [![Release][release-image]][release-url]
+<a href="https://vercel.com/?utm_source=ShabadOS&utm_campaign=oss">
+<img src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg" width="120" alt="Powered by Vercel"/>
+</a>
 
 **Table of contents**
 
