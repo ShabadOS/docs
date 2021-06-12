@@ -5,9 +5,7 @@
 User guides, quick-references, developer best practices, and other Shabad OS related documentation
 
 [![Release][release-image]][release-url]
-<a href="https://vercel.com/?utm_source=ShabadOS&utm_campaign=oss">
-<img src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg" width="100" alt="Powered by Vercel"/>
-</a>
+[![Powered by Vercel][vercel-image]][vercel-url]
 
 **Table of contents**
 
@@ -88,6 +86,8 @@ Docusaurus v2 is under the MIT license. [Learn more about Docusaurus >](https://
 
 [release-image]: https://img.shields.io/github/workflow/status/shabados/docs/Continuous%20Deployment/main.svg?label=release
 [release-url]: https://github.com/shabados/docs/actions?query=workflow%3A%22Continuous+Deployment%22+branch%3Amain
+[vercel-image]: https://img.shields.io/badge/▲-Powered%20by%20Vercel-000?labelColor=000
+[vercel-url]: https://vercel.com/?utm_source=ShabadOS&utm_campaign=oss
 [instagram-image]: https://img.shields.io/badge/Instagram-%40shabad__os-C13584.svg?logo=instagram&logoColor=white
 [instagram-url]: https://www.instagram.com/shabad_os/
 [twitter-image]: https://img.shields.io/badge/Twitter-%40shabad__os-1DA1F2.svg?logo=twitter&logoColor=white

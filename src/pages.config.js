@@ -14,7 +14,7 @@ const pages = [
       id: 'community',
       path: 'content/community',
       routeBasePath: 'community',
-      sidebarPath: require.resolve( './sidebars/community' ),
+      sidebarPath: require.resolve( '../content/community/sidebar' ),
     },
   ],
   [
@@ -24,7 +24,7 @@ const pages = [
       id: 'database',
       path: 'content/database',
       routeBasePath: 'database',
-      sidebarPath: require.resolve( './sidebars/database' ),
+      sidebarPath: require.resolve( '../content/database/sidebar' ),
     },
   ],
   [
@@ -52,7 +52,7 @@ const pages = [
       id: 'presenter',
       path: 'content/presenter',
       routeBasePath: 'presenter',
-      sidebarPath: require.resolve( './sidebars/presenter' ),
+      sidebarPath: require.resolve( '../content/presenter/sidebar' ),
     },
   ],
   [
@@ -71,7 +71,7 @@ const pages = [
       id: 'viewer',
       path: 'content/viewer',
       routeBasePath: 'viewer',
-      sidebarPath: require.resolve( './sidebars/viewer' ),
+      sidebarPath: require.resolve( '../content/viewer/sidebar' ),
     },
   ],
 ]
