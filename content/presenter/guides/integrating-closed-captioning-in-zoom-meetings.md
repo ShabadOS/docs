@@ -34,6 +34,7 @@ Closed captions can be provided by the host of a Zoom meeting. Before beginning 
 1. In the Shabad OS controller, click the cog/gear to open the **Settings** window.
 2. Select **Closed Captioning** in the left pane.
 3. Where it says **Zoom API Token**, paste the URL from Zoom.
+4. Click anywhere outside the **Zoom API Token** text input to save changes. You will see a checkmark as an indication that the input was saved.
 
 <img src={shabadosZoomPanel} width={500} />
 
