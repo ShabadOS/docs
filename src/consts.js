@@ -1,4 +1,4 @@
-const EDIT_URL = 'https://github.com/shabados/docs/edit/dev/'
+const EDIT_URL = 'https://github.com/shabados/docs/edit/main/'
 
 module.exports = {
   EDIT_URL,
