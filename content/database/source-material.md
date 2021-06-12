@@ -33,7 +33,7 @@ Singh, Sahib. Sri Guru Granth Darpan. Vol. 1-10, Raaj Publishers, Hoshiarpur/Jal
 
 Singh, Badan. Fridkot Wala Teeka. Bh. Baljinder Singh Rara Sahib, www.ik13.com/PDFS/Fridkot_Wala_Teeka.pdf. Accessed 24 May 2020.
 
-Khalsa, Sant Singh. Siri Guru Granth Sahib Ji. Vol 1-5, version 2.5, SikhNet, Española, Nov 2015, http://report.sikhnet.com/files/2013/10/SGGS_Gurmukhi_English_Vol_1_edition2.5_Nov_19_2015.pdf. Accessed 12 Jun 2021. 
+Khalsa, Sant Singh. Siri Guru Granth Sahib Ji. Vol 1-5, version 2.5, SikhNet, Española, Nov 2015, http://report.sikhnet.com/files/2013/10/SGGS_Gurmukhi_English_Vol_1_edition2.5_Nov_19_2015.pdf. Accessed 12 Jun 2021.
 
 Singh, Manmohan. Sri Guru Granth Sahib (English & Punjabi Translation). Vol 1-8, 6th & 8th ed., SGPC, Amritsar, 2006-2009. www.archive.org/details/SriGuruGranthSahibEnglishAndPunjabiTranslation-Vol.1. Accessed 24 May 2020.
 ```
