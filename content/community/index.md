@@ -33,7 +33,7 @@ The current Shabad OS community leadership consists of the following three peopl
 
 ## Feedback
 
-- Ask questions and get help in our community chat via [Slack][chat-url]
+- Ask questions and get help in our community chat via [Slack](http://chat.shabados.com)
 - Follow [@shabad_os on Instagram](https://www.instagram.com/shabad_os/) and [@shabad_os on Twitter](https://www.twitter.com/shabad_os/) and let us know what you think!
 
 ## Code of Conduct
